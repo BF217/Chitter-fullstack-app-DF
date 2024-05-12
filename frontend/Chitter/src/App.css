@@ -1,0 +1,39 @@
+/* Clear Sans */
+@font-face {
+    font-family: "Clear Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://github.com/intel/clear-sans/blob/main/EOT/ClearSans-Regular.eot");
+}
+
+/* used an SCSS converter to avoid needing SASS to edit bootstrap button colours */
+.btn-chitter {
+    background-color: #1DA1F2 !important;              
+    border-color: #1DA1F2 !important;
+    color: #ffffff !important;
+}
+
+.btn-chitter:hover,
+.btn-chitter:focus,
+.btn-chitter:active {
+    background-color: #1991db !important;
+    border-color: #1781cc !important;
+}
+
+.btn-chitter:focus {
+    box-shadow: 0 0 0 0.2rem rgba(29, 161, 242, 0.5) !important;
+}
+
+.btn-chitter:disabled {
+    background-color: #b3e5fc !important;
+    border-color: #b3e5fc !important;
+}
+
+.signup-img {
+    height: auto;
+    width: 75%;
+}
+
+.home-nav{
+    background-color: #1DA1F2;
+}
